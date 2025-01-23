@@ -1,0 +1,95 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+    padding: 10px 20px 10px 20px;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2228;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 2000; 
+}
+
+.imgName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "eurostile", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+    color: rgb(31, 145, 126);
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.navLinks div:hover {
+    color: white;
+  }
+
+.about, .experience, .education, .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "eurostile", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: rgb(31, 145, 126);
+    cursor: pointer;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+    min-height: 100vh;
+}
+
+#exp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 145, 126);
+}
+
+#edu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+}
+
+.navPages {
+    display: flex;
+    flex-direction: column;
+}

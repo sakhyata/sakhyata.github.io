@@ -1,0 +1,29 @@
+.eduPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20rem;
+}
+
+.eduHeader {
+    font-family: "eurostile", sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #282c34;
+    padding-top: 40px;
+}
+
+.eduDetails {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    padding-top: 20px;
+}
+
+.degree {
+    font-family: "eurostile", sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #282c34;
+    padding: 20px 20px 20px 20px;
+}
