@@ -1,1 +1,1 @@
-# sakhyatajasthi.github.io
+# sakhyata.github.io
